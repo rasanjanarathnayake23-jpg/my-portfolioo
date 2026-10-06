@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Portfolio | Nexus Creative</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Nexus<span>Agency</span></a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">☰</button>
+      <nav id="navMenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html" class="active">Our Work</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><button id="themeToggleBtn" class="btn-theme">🌙 Dark Mode</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="portfolio-section">
+    <h2 class="section-title">Featured Client Work</h2>
+    <p class="section-sub">Explore some of our recent client success stories and custom web platforms.</p>
+    
+    <div id="projectGrid" class="grid">
+      <div class="loading">Loading Client Projects...</div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2026 Nexus Creative Agency. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Mobile & Web App",
+    "client": "Apex Retail Solutions",
+    "description": "Custom full-stack web store with online payment integration and real-time inventory management.",
+    "tags": ["React", "Node.js", "Payment API"]
+  },
+  {
+    "id": 2,
+    "title": "Corporate Brand Redesign",
+    "client": "Lanka Logistics Ltd",
+    "description": "Complete UI/UX overhaul, search engine optimization, and corporate identity creation.",
+    "tags": ["UI/UX", "SEO", "Branding"]
+  },
+  {
+    "id": 3,
+    "title": "FinTech Analytics Dashboard",
+    "client": "Global Capital Advisors",
+    "description": "Real-time data visualization system with charts, JSON API feeds, and automated reporting.",
+    "tags": ["JavaScript", "Chart.js", "JSON"]
+  }
+]

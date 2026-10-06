@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Nexus Creative</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Nexus<span>Agency</span></a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">☰</button>
+      <nav id="navMenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Our Work</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+          <li><button id="themeToggleBtn" class="btn-theme">🌙 Dark Mode</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-section">
+    <div class="form-container">
+      <h2>Let's Start Your Project</h2>
+      <p>Fill out the form below to get a free estimate and timeline for your website.</p>
+      
+      <div id="formSuccess" class="alert-success" style="display:none;">
+        ✅ Thank you! Your message has been received. Our team will contact you within 24 hours.
+      </div>
+
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="fullName">Your Full Name</label>
+          <input type="text" id="fullName" placeholder="e.g. John Doe">
+          <small class="error-msg" id="nameError"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Business Email</label>
+          <input type="email" id="email" placeholder="name@company.com">
+          <small class="error-msg" id="emailError"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="serviceType">Service Required</label>
+          <select id="serviceType">
+            <option value="web">Web Application Development</option>
+            <option value="ui">UI/UX Design & Prototyping</option>
+            <option value="seo">SEO & Speed Optimization</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Project Brief / Details</label>
+          <textarea id="message" rows="5" placeholder="Describe your project goals, budget, and features..."></textarea>
+          <small class="error-msg" id="messageError"></small>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Send Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2026 Nexus Creative Agency. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/validation.js"></script>
+</body>
+</html>
